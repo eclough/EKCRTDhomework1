@@ -1,0 +1,131 @@
+/*
+Copyright (c) Erin Clough & Robert Danis
+*/
+
+body {
+    font-family: sans-serif;
+    margin:0;
+    padding-left: 5%;
+    text-align: center;
+}
+
+#page-wrap {
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+}
+
+h1 {
+    font-size: 170%;
+    margin: 0px;
+    padding-top: 4%;
+    text-align: center;
+}
+
+#header {
+    font-size: 100%;
+    font-weight: normal;
+    text-align: center;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#head {
+    text-align: center;
+}
+
+#head li {
+    display: inline-block;
+    padding: 0px;
+    text-align: center;
+}
+
+#head li a{
+    display: block;
+    line-height: 2em;
+    width: 100%
+}
+
+#head li:not(:last-child):after {
+    content:" \2022";
+    font-size: large;
+}
+
+#education {
+    clear: both;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.ed {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#edhead {
+    margin-left: 0px;
+    padding-top: 0px;
+}
+#hypo{
+    color: red;
+}
+
+.qualifications{
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 115%;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 0%;
+    text-decoration: underline;
+}
+
+p {
+    display: inline;
+    font-weight: normal;
+}
+.company {
+    font-weight: bold;
+}
+
+.time {
+    float: right;
+}
+
+.position {
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+
+ul {
+    margin: 0px;
+    margin-bottom: 0%;
+}
+
+.last {
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    #block1, #block2 {
+        display: block;
+    }
+
+    #bullet {
+        display: none;
+    }
+
+    .time {
+        display: block;
+        float: none;
+
+    }
+}
+
